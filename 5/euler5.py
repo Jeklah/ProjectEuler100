@@ -1,14 +1,5 @@
 def remainder(t, n):
-    if n > 0:
-        if not (t % n):
-            if remainder(t, n-1):
-                return True
-            else:
-                return False
-        else:
-            return False
-    else:
-        return True
+    return bool(not (t % n) and remainder(t, n-1)) if n > 0 else True
 
 i = 20
 while not remainder(i, 20):
