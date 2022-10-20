@@ -247,3 +247,5 @@ ModelManifest.xml
 *.o
 */**/.lock
 */target/
+*/*/*.lock
+*/*/target/
