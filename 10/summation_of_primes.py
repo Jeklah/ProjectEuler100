@@ -1,8 +1,5 @@
 # project euler: problem 10 (http://projecteuler.net/problem=10)
-# 
-#  
-#   
-# 
+# Author: Jeklah
 
 import math
 
@@ -10,10 +7,9 @@ import math
 def is_prime(n):
     if n == 1:
         return False
-    elif n == 2:
+    if n == 2:
         return True
-    else:
-        return all(n % i != 0 for i in range(2, int(math.sqrt(n)) + 1))
+    return all(n % i != 0 for i in range(2, int(math.sqrt(n)) + 1))
 
 
 def sum_primes(n):
