@@ -1,8 +1,8 @@
 # project euler: problem 10 (http://projecteuler.net/problem=10)
-# author: Tom Harkness (
-#   begun: 2013-09-09 11:00:00
-#   solved: 2013-09-09 11:00:00
-# )
+# 
+#  
+#   
+# 
 
 import math
 

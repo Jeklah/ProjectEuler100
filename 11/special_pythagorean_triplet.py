@@ -1,5 +1,4 @@
 # project euler: problem 9 (https://projecteuler.net/problem=9)
-# author: Tom Harkness (
 
 import itertools
 import math
