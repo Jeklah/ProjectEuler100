@@ -1,11 +1,14 @@
 # project euler: problem 11 (https://projecteuler.net/problem=11)
-#
+# Author: Jeklah
 # reading the grid from a file and finding the largest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid
 
 import sys
 
 
 def read_grid(filename):
+    """
+    Reading in the grid.txt file.
+    """
     grid = []
     with open(filename) as f:
         grid.extend([int(x) for x in line.split()] for line in f)
