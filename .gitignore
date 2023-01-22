@@ -249,4 +249,5 @@ ModelManifest.xml
 */target/
 */*/*.lock
 */*/target/
-*/*/**.json
+*/*/*/*.json
+
