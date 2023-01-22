@@ -250,5 +250,5 @@ ModelManifest.xml
 */*/*.lock
 */*/target/
 */**/.*.json
-../../.*.json
-../../../.*.json
+../../*/**/*.*.json
+../../../*/**/*.*.json
